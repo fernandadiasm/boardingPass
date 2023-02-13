@@ -1,6 +1,96 @@
 /*COLORS*/
-div {
-  width: 100%;
-  height: 100px;
-  background-color: rgb(201, 57, 57);
+/*FONTS*/
+/*COLORS*/
+/*FONTS*/
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: -0.02em;
+  background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+  display: grid;
+  place-content: center;
+}
+
+/*COLORS*/
+/*FONTS*/
+#ticket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 32px;
+  gap: 24px;
+  border-radius: 24px;
+  background: #FFFFFF;
+}
+#ticket .flightInfo {
+  width: 327px;
+  height: 191px;
+  border-radius: 24px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+#ticket .flightInfo .container__number__date {
+  width: 263px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 32px;
+  gap: 24px;
+}
+#ticket .flightInfo .container__number__date .flight__number .title__info,
+#ticket .flightInfo .container__number__date .flight__data .title__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.64);
+}
+#ticket .flightInfo .container__number__date .flight__number .subtitle__info,
+#ticket .flightInfo .container__number__date .flight__data .subtitle__info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.88);
+}
+#ticket .flightInfo .container__departure__arrival {
+  width: 263px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 32px;
+  gap: 10px;
+  isolation: isolate;
+}
+#ticket .flightInfo .container__departure__arrival .departure .departure__info,
+#ticket .flightInfo .container__departure__arrival .departure .arrival__info,
+#ticket .flightInfo .container__departure__arrival .arrival .departure__info,
+#ticket .flightInfo .container__departure__arrival .arrival .arrival__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.64);
+}
+#ticket .flightInfo .container__departure__arrival .departure .departure__time,
+#ticket .flightInfo .container__departure__arrival .departure .arrival__time,
+#ticket .flightInfo .container__departure__arrival .arrival .departure__time,
+#ticket .flightInfo .container__departure__arrival .arrival .arrival__time {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.88);
+}
+#ticket .flightInfo .container__departure__arrival .departure .departure__code,
+#ticket .flightInfo .container__departure__arrival .departure .arrival__code,
+#ticket .flightInfo .container__departure__arrival .arrival .departure__code,
+#ticket .flightInfo .container__departure__arrival .arrival .arrival__code {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.88);
 }/*# sourceMappingURL=style.css.map */
